@@ -10,11 +10,11 @@ interface JoinGroupPageProps {
 
 const JoinGroupPage: React.FC<JoinGroupPageProps> = ({ onBack }) => {
   const handleTelegramJoin = () => {
-    window.open('https://t.me/+nJJaX-NtOo4wN2I0', '_blank');
+    window.open('https://t.me/Best_Online_Paying_Platform', '_blank');
   };
 
   const handleWhatsAppJoin = () => {
-    window.open('https://chat.whatsapp.com/JKPGIZrgbYCKIpudv6PDep?mode=ac_t', '_blank');
+    window.open('https://chat.whatsapp.com/Lic0WEAwGei4ckaIOcDqoh?mode=ems_copy_c', '_blank');
   };
 
   return (
