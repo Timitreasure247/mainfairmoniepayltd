@@ -332,7 +332,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
           <CardContent className="p-8 text-center">
             <Loader2 className="w-12 h-12 animate-spin text-green-600 mx-auto mb-4" />
             <h3 className="text-lg font-semibold text-green-800 mb-2">Confirming...</h3>
-            <p className="text-green-600">Confirming with Flutterwave payment</p>
+            <p className="text-green-600">Confiming your payment please wait</p>
           </CardContent>
         </Card>
       </div>
