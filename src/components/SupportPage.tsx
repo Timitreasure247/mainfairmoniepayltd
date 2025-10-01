@@ -64,7 +64,7 @@ const SupportPage: React.FC<SupportPageProps> = ({ onBack, onLiveChat }) => {
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-gray-900 mb-1">Email Support</h3>
                 <p className="text-sm text-gray-600">Send us an email and we'll get back to you within 24 hours</p>
-                <p className="text-xs text-green-600 mt-1">surdarkw@gmail.com</p>
+                <p className="text-xs text-green-600 mt-1"></p>
               </div>
             </div>
           </CardContent>
