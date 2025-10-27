@@ -13,7 +13,7 @@ interface JoinGroupProps {
 
 const JoinGroup: React.FC<JoinGroupProps> = ({ isOpen, onClose, onBack }) => {
   const handleTelegramJoin = () => {
-    window.open('https://t.me/Best_Online_Paying_Platform', '_blank');
+    window.open('https://t.me/+E4yVdFuns3U1OWNk', '_blank');
     onClose();
   };
 
