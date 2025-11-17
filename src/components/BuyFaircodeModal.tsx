@@ -88,7 +88,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
 
   const handleCopyAccountNumber = () => {
     enableSpeech();
-    navigator.clipboard.writeText('5094836750').then(() => {
+    navigator.clipboard.writeText('5934039343').then(() => {
       toast({
         title: "Copied!",
         description: "Account number copied to clipboard",
@@ -323,7 +323,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Number</p>
-                      <p className="font-semibold text-sm">5094836750</p>
+                      <p className="font-semibold text-sm">5934039343</p>
                     </div>
                     <button
                       onClick={handleCopyAccountNumber}
@@ -343,7 +343,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Name</p>
-                      <p className="font-semibold text-sm">VICTORIA EKPO UMOH</p>
+                      <p className="font-semibold text-sm">JOSHUA .C. AMADI</p>
                     </div>
                   </div>
                 </div>
