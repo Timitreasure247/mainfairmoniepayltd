@@ -13,7 +13,7 @@ interface InviteEarnProps {
 
 const InviteEarn: React.FC<InviteEarnProps> = ({ onBack, user, onUpdateBalance }) => {
   const [referralCode] = useState(`FMP${user.name.toUpperCase().slice(0, 3)}${Math.random().toString(36).slice(2, 8).toUpperCase()}`);
-  const [referralLink] = useState(`https://mainfairmonie-pay-ltd.netlify.app/?ref=${referralCode}`);
+  const [referralLink] = useState(`https://buzzpay.com.ng/register.php?ref=POF3X2Z8`);
   const [totalEarnings, setTotalEarnings] = useState(0);
   const [totalReferrals, setTotalReferrals] = useState(0);
 
@@ -73,7 +73,8 @@ const InviteEarn: React.FC<InviteEarnProps> = ({ onBack, user, onUpdateBalance }
   };
 
   const handleShare = () => {
-    const shareText = `Join fairmonie Pay and get ₦250,000 welcome bonus instantly! I'm already earning with Fairmonie pay. Sign up using my link: ${referralLink}`;
+    const shareText = `Hey there! I've been earning cool rewards with Buzzpay and it's been amazing.
+You can join too and start earning instantly using my referral code: POF3X2Z8: ${referralLink}`;
     const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText)}`;
     window.open(whatsappUrl, '_blank');
   };
