@@ -227,7 +227,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
             </CardHeader>
             <CardContent className="p-6 space-y-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">₦7,500</div>
+                <div className="text-3xl font-bold text-green-600 mb-2">₦5,500</div>
                 <p className="text-gray-600">One-time purchase</p>
               </div>
 
@@ -521,4 +521,16 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                 Payment not confirmed. Please don't dispute any transfer to us. Contact support instead.
               </p>
               <Button
+/CardContent>
+          </Card>
+        </div>
+      </div>
+    );
+  }
+
+  return null;
+};
+
+export default BuyFaircodeModal;
+
   
