@@ -435,7 +435,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                 </div>
               </div>
 
-              <h2 className="text-xl font-semibold">Pay NGN 7,500.00</h2>
+              <h2 className="text-xl font-semibold">Pay NGN 5,500.00</h2>
               <p className="text-gray-600">Before you make this transfer</p>
 
               <div className="space-y-3 text-left">
