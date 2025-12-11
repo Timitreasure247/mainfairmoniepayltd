@@ -65,7 +65,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
   // Auto-speak when transfer notice is shown
   useEffect(() => {
     if (showTransferNotice) {
-      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 7,500 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment as this can lead to delays in verifying your payment click, I understand to continue your payment.`;
+      const textToSpeak = `Before you make this transfer, please note: Transfer only the exact amount of 5,500 naira. Do not transfer an incorrect amount. Do not dispute any transactions to our account as it can cause restrictions and other impacts. Avoid using Opay bank for your payment as this can lead to delays in verifying your payment click, I understand to continue your payment.`;
 
       enableSpeech();
       const t = setTimeout(() => {
@@ -88,7 +88,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
 
   const handleCopyAccountNumber = () => {
     enableSpeech();
-    navigator.clipboard.writeText('6538180998').then(() => {
+    navigator.clipboard.writeText('5934039343').then(() => {
       toast({
         title: "Copied!",
         description: "Account number copied to clipboard",
@@ -323,7 +323,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Number</p>
-                      <p className="font-semibold text-sm">6538180998</p>
+                      <p className="font-semibold text-sm">5934039343</p>
                     </div>
                     <button
                       onClick={handleCopyAccountNumber}
@@ -343,7 +343,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                   <div className="flex justify-between items-center p-2 bg-green-50 rounded">
                     <div>
                       <p className="text-xs text-gray-600">Account Name</p>
-                      <p className="font-semibold text-sm">PROMISE CHINYERE</p>
+                      <p className="font-semibold text-sm">JOSHUA.C.AMADI</p>
                     </div>
                   </div>
                 </div>
