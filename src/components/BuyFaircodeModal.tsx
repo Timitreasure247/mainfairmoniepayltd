@@ -521,7 +521,7 @@ const BuyFaircodeModal: React.FC<BuyFaircodeModalProps> = ({ onBack, user }) => 
                 Payment not confirmed. Please don't dispute any transfer to us. Contact support instead.
               </p>
               <Button
-onClick={onBack}
+                onClick={onBack}
                 variant="outline"
                 className="border-red-300 text-red-600 hover:bg-red-50"
               >
